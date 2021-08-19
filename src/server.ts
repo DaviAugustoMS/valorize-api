@@ -8,6 +8,15 @@ const app = express();
  *  PUT    => Alterar uma Informação
  *  DELITE => Remover um dado
  *  PATCH  => Alterar uma Informação específica
+ *
+ *  Tipos de Parametros
+ *
+ *  Routes Params => http://localhost:3000/produtos/78347583448345
+ *  Query Params  => http://localhost:3000/poducts?name=teclado&description=tecladobom&
+ *  Query Params  => {
+ *    "name": "teclado",
+ *    "description": "teclado bom"
+ *  }
  *  **/
 
 app.get("/test", (request, response) => {
